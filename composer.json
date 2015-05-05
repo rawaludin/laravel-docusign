@@ -1,0 +1,24 @@
+{
+    "name": "rahmatawaludin/docusign",
+    "description": "",
+    "authors": [
+        {
+            "name": "Rahmat Awaludin",
+            "email": "rahmat.awaludin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "src/Rahmatawaludin/Docusign/api"
+        ],
+        "psr-0": {
+            "Rahmatawaludin\\Docusign\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
